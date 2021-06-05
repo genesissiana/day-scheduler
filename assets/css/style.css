@@ -27,10 +27,7 @@ body {
     border-bottom: 10px solid black;
   }
   
-  /* .description{
-    white-space: pre-wrap;
-  } */
-  
+
   .time-block{
     /* done */
     text-align: center;
@@ -38,7 +35,6 @@ body {
   }
   
   .row {
-    /* Done */
     height: 80px;
     border-top: 1px solid white;;
   }
@@ -82,4 +78,3 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
-  
