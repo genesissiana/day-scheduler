@@ -19,12 +19,7 @@ var printTasks = function(){
 
         $("#task-item-" + list).replaceWith(taskP);
     })
- }
-
-
-    
-var Today = (moment().format("MMMM D, YYYY"))
-    $("#currentDay").text(Today);
+ }    
 
 //color code hours bins
 var hourAudit =function(){
