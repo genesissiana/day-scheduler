@@ -39,7 +39,7 @@ var hourAudit =function(){
 
 //Task update with click
 $(".taskBin").on("click", "p", function(){
-    // console.log("<p> was clicked");
+    // console.log
     var text =$(this)
       .text()
       .trim();
@@ -53,18 +53,16 @@ $(".taskBin").on("click", "p", function(){
 
   //Task needs to be updated
 $(".taskBin").on("blur", "textarea", function() {
-  //get the textareas; current value/text
+ 
     var text = $(this)
       .val()
       .trim();
-    // console.log(text)
 
-    //recreate p element
     var taskP = $("<p>")
       .addClass("taskItem")
       .text(text);
 
-    // replace textarea with p element
+    
     $(this).replaceWith(taskP);
   });    
 
